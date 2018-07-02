@@ -3,6 +3,4 @@ app:
   environment:
     ENV: my-var
 data:
-  image: docker pull webdevops/php-apache-dev
-  volumes:
-    - ./tmp/data:/data
+  image: docker pull httpd
