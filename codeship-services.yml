@@ -3,6 +3,6 @@ app:
   environment:
     ENV: my-var
 data:
-  image: busybox
+  image: docker pull webdevops/php-apache-dev
   volumes:
     - ./tmp/data:/data
